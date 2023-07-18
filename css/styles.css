@@ -16,13 +16,14 @@ body {
   color: #4d5ae5;
   border-bottom: 1px solid #e7e9fc;
 }
-.navigation-title{
-  padding: 24px 0 24px 0;
+.navigation-title {
   gap: 40px;
   display: flex;
   align-items: center;
 }
-
+.navigation-item {
+  padding: 24px 0 24px 0;
+}
 .navigation-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -50,7 +51,7 @@ body {
 .navigation-list .link:focus {
   color: #404bbf;
 }
-.navigation-list{
+.navigation-list {
   display: flex;
   gap: 40px;
   padding: 24px 0;
@@ -83,10 +84,9 @@ body {
 .navigation-contacts-link:focus {
   color: #404bbf;
 }
-.navigation-contacts{
+.navigation-contacts {
   display: flex;
   gap: 40px;
-  
 }
 .span-logo {
   color: #2e2f42;
@@ -113,11 +113,11 @@ body {
   --primary-white-color: #f4f4fd;
   --secondary-accent-color: #404bbf;
 }
-.container{
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px
+  padding: 0 15px;
 }
 
 /*--------------------Section Hero-------------------------------*/
@@ -167,7 +167,7 @@ body {
 }
 
 /*------------------------Section Work------------------*/
-.work-item{
+.work-item {
   display: block;
 }
 .work-subtitle {
@@ -295,6 +295,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.images-link{
+.images-link {
   display: block;
 }
