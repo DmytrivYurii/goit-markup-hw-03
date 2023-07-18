@@ -17,14 +17,12 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-title{
+  padding: 24px 0;
+  gap: 40px;
   display: flex;
   align-items: center;
 }
-.navigation-item{
-  padding: 24px 0;
-  display: flex;
-  gap: 40px;
-}
+
 .navigation-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
