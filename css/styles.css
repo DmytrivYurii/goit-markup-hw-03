@@ -14,10 +14,21 @@ body {
 .navigation {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
+  border-bottom: 1px solid #e7e9fc;
+}
+.navigation-title{
+  display: flex;
+  align-items: center;
+}
+.navigation-item{
+  padding: 24px 0;
+  display: flex;
+  gap: 40px;
 }
 .navigation-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -69,6 +80,11 @@ body {
 .navigation-contacts-link:focus {
   color: #404bbf;
 }
+.navigation-contacts{
+  display: flex;
+  gap: 40px;
+  
+}
 .span-logo {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
@@ -93,6 +109,12 @@ body {
   --primary-black-color: #434455;
   --primary-white-color: #f4f4fd;
   --secondary-accent-color: #404bbf;
+}
+.container{
+  display: flex;
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px
 }
 
 /*--------------------Section Hero-------------------------------*/
