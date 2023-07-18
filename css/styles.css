@@ -52,6 +52,11 @@ body {
 .navigation-list .link:focus {
   color: #404bbf;
 }
+.navigation-list{
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
 .navigation-link {
   font-family: "Roboto";
   color: #2e2f42;
@@ -113,7 +118,7 @@ body {
 .container{
   display: flex;
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px
 }
 
