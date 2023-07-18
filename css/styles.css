@@ -113,7 +113,7 @@ body {
   --primary-white-color: #f4f4fd;
   --secondary-accent-color: #404bbf;
 }
-.container {
+.container-header {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -133,8 +133,14 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .hero-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -148,7 +154,10 @@ body {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
+.container-hero{
+  padding: 188px 0;
+  
+}
 /*---------------------Section Company------------------*/
 .company-item {
 }
