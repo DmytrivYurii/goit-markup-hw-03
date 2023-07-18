@@ -17,7 +17,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-title{
-  padding: 24px 0;
+  padding: 24px 0 24px 0;
   gap: 40px;
   display: flex;
   align-items: center;
