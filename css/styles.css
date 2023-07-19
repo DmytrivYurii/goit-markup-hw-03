@@ -224,9 +224,12 @@ body {
 }
 /*----------------------Section Team-----------------*/
 .team {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .team-subtitle {
+  display: flex;
+  gap: 24px;
   margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
@@ -246,9 +249,10 @@ body {
   letter-spacing: 0.02em;
 }
 .team-item {
+  border-radius: 0px 0px 4px 4px;
   display: flex;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
 .team-position {
