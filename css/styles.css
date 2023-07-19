@@ -164,14 +164,17 @@ body {
   padding: 120px 0;
 }
 .container-company {
-  display: flex;
-  gap: 24px;
-  width: ((100% - 72px) / 4);
 }
 .company-title {
   visibility: hidden;
+}
+.company-list {
+  display: flex;
+  gap: 24px;
+  width: ((100% - 72px) / 4);
   margin-bottom: 8px;
 }
+
 .company-item {
 }
 .company-subtitle {
