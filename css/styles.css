@@ -1,8 +1,10 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  box-sizing: border-box;
 }
 .link {
   text-decoration: none;
@@ -155,10 +157,21 @@ body {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.container{
-  
+.container {
 }
 /*---------------------Section Company------------------*/
+.company {
+  padding: 120px 0;
+}
+.container-company {
+  display: flex;
+  gap: 24px;
+  width: ((100% - 72px) / 4);
+}
+.company-title {
+  visibility: hidden;
+  margin-bottom: 8px;
+}
 .company-item {
 }
 .company-subtitle {
