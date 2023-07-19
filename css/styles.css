@@ -205,10 +205,13 @@ body {
 .work {
   padding-bottom: 120px;
 }
-.work-item {
+.work-list{
   display: flex;
   gap: 24px;
   width: calc((100% - 48px) / 3);
+}
+.work-item {
+
 }
 .work-subtitle {
   margin-bottom: 72px;
