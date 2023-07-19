@@ -160,8 +160,10 @@ body {
 .container-hero {
 }
 /*---------------------Section Company------------------*/
-.container-company {
+.company {
   padding: 120px 0;
+}
+.container-company {
 }
 .company-title {
   visibility: hidden;
