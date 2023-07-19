@@ -160,22 +160,20 @@ body {
 .container-hero {
 }
 /*---------------------Section Company------------------*/
-.container {
-  padding: 120px 0;
-}
 .container-company {
+  padding: 120px 0;
 }
 .company-title {
   visibility: hidden;
 }
 .company-list {
+}
+
+.company-item {
   display: flex;
   gap: 24px;
   width: ((100% - 72px) / 4);
   margin-bottom: 8px;
-}
-
-.company-item {
 }
 .company-subtitle {
   color: #2e2f42;
