@@ -179,13 +179,12 @@ body {
   padding: 120px 0;
 }
 .company-list {
-  display: flex;
   gap: 24px;
-  margin-bottom: 8px;
 }
 
 .company-item {
   width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 .company-subtitle {
   color: #2e2f42;
