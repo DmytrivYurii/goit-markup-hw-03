@@ -179,6 +179,7 @@ body {
   padding: 120px 0;
 }
 .company-list {
+  display: flex;
   gap: 24px;
 }
 
