@@ -157,10 +157,10 @@ body {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.container {
+.container-hero {
 }
 /*---------------------Section Company------------------*/
-.company {
+.container {
   padding: 120px 0;
 }
 .container-company {
