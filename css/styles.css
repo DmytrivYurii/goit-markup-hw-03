@@ -181,11 +181,11 @@ body {
 .company-list {
   display: flex;
   gap: 24px;
-  width: ((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 
 .company-item {
-  margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .company-subtitle {
   color: #2e2f42;
