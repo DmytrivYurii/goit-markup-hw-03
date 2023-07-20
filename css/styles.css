@@ -194,6 +194,7 @@ ul {
 }
 
 .company-item {
+  width: calc((100% - 72px) / 4);
 }
 .company-subtitle {
   margin-bottom: 8px;
