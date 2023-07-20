@@ -23,17 +23,16 @@ ul {
 }
 /*---------------------Navigation------------------------------*/
 .navigation {
+  display: flex;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-title {
-  display: flex;
   gap: 40px;
   align-items: center;
 }
 .navigation-item {
-  display: flex;
 }
 .navigation-logo {
   color: #4d5ae5;
@@ -219,8 +218,7 @@ ul {
   padding-bottom: 120px;
 }
 .work-list {
-  display: flex;
-  gap: 24px;
+  display: flex;  gap: 24px;
 }
 .work-item {
   display: block;
