@@ -177,12 +177,12 @@ body {
   padding: 120px 0;
 }
 .company-list {
-  flex-basis: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
 
 .company-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .company-subtitle {
   margin-bottom: 8px;
