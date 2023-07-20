@@ -174,10 +174,10 @@ body {
   overflow: hidden;
 }
 .company {
-  width: calc((100% - 72px) / 4);
   padding: 120px 0;
 }
 .company-list {
+  width: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
@@ -201,10 +201,10 @@ body {
 
 /*------------------------Section Work------------------*/
 .work {
-  width: calc((100% - 48px) / 3);
   padding-bottom: 120px;
 }
 .work-list {
+  width: calc((100% - 48px) / 3);
   display: flex;
   gap: 24px;
 }
