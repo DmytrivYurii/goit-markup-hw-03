@@ -28,11 +28,12 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-title {
-  gap: 40px;
   display: flex;
+  gap: 40px;
   align-items: center;
 }
 .navigation-item {
+  display: flex;
 }
 .navigation-logo {
   color: #4d5ae5;
@@ -87,6 +88,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .navigation-title-contacts {
+  display: flex;
   font-family: "Roboto";
   font-style: normal;
 }
@@ -124,6 +126,7 @@ ul {
   --secondary-accent-color: #404bbf;
 }
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
