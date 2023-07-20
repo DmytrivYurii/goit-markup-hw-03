@@ -369,6 +369,7 @@ body {
   letter-spacing: 0.02em;
 }
 .images-link {
+  display: flex;
 }
 .images-list {
   flex-wrap: wrap;
