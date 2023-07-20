@@ -355,6 +355,7 @@ body {
 
 /*---------------------------Section Images-------------------*/
 .images-subtitle {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
