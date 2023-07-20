@@ -369,9 +369,9 @@ body {
   letter-spacing: 0.02em;
 }
 .images-link {
-  display: flex;
 }
 .images-list {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
