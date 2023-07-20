@@ -237,6 +237,7 @@ ul {
   background-color: #f4f4fd;
 }
 .team-subtitle {
+  display: flex;
   gap: 24px;
   margin-bottom: 72px;
   color: #2e2f42;
