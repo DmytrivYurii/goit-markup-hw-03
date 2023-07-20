@@ -269,6 +269,7 @@ body {
 
 /*---------------------Section Footer-----------------*/
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
   width: 1440px;
@@ -276,7 +277,6 @@ body {
   flex-shrink: 0;
 }
 .footer-link {
-  padding: 100px 0;
   display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
