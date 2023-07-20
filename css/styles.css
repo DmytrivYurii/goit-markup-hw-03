@@ -174,10 +174,10 @@ body {
   overflow: hidden;
 }
 .company {
-  flex-basis: calc((100% - 72px) / 4);
   padding: 120px 0;
 }
 .company-list {
+  flex-basis: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
