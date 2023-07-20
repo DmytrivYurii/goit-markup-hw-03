@@ -182,9 +182,9 @@ body {
 }
 
 .company-item {
+  width: calc((100% - 72px) / 4);
 }
 .company-subtitle {
-  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
