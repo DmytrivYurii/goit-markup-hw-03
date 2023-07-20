@@ -204,12 +204,12 @@ body {
   padding-bottom: 120px;
 }
 .work-list {
+  width: calc((100% - 48px) / 3);
   display: flex;
   gap: 24px;
 }
 .work-item {
   display: block;
-  width: calc((100% - 48px) / 3);
 }
 .work-subtitle {
   margin-bottom: 72px;
