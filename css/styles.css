@@ -298,6 +298,7 @@ body {
 /*--------------------Portfolio----------------------*/
 
 .navigation-logo-portfolio {
+  margin-right: 76px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
