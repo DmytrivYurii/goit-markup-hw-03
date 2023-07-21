@@ -23,7 +23,6 @@ ul {
 }
 /*---------------------Navigation------------------------------*/
 .navigation {
-  display: flex;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   border-bottom: 1px solid #e7e9fc;
