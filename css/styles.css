@@ -203,6 +203,7 @@ ul {
 }
 
 .company-item {
+  width: calc((100% - 72px) / 4);
 }
 .company-subtitle {
   margin-bottom: 8px;
@@ -213,7 +214,6 @@ ul {
   letter-spacing: 0.02em;
 }
 .company-item-text {
-  flex-basis: calc((100% - 72px) / 4);
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
