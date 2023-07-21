@@ -288,7 +288,6 @@ ul {
   margin-bottom: 8px;
 }
 .teamc {
-  display: block;
 }
 /*---------------------Section Footer-----------------*/
 .footer {
@@ -407,4 +406,7 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+}
+.imgbl{
+  display: block;
 }
