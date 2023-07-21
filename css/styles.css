@@ -15,6 +15,9 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+img{
+  display: block;
+}
 .link {
   text-decoration: none;
 }
@@ -406,7 +409,4 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-}
-.imgbl{
-  display: block;
 }
