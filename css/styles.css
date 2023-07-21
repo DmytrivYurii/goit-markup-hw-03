@@ -29,6 +29,8 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-title {
+  margin-right: 78px;
+  display: flex;
   gap: 40px;
   align-items: center;
 }
@@ -86,6 +88,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .navigation-title-contacts {
   display: flex;
   font-family: "Roboto";
@@ -124,8 +127,10 @@ ul {
   --primary-white-color: #f4f4fd;
   --secondary-accent-color: #404bbf;
 }
-.container {
+.hc{
   display: flex;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -147,9 +152,11 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  gap: 48px;
+  margin: 0 auto 48px auto;
 }
 .hero-btn {
+  margin: 0 auto;
   text-align: center;
   display: block;
   min-width: 169px;
@@ -218,7 +225,8 @@ ul {
   padding-bottom: 120px;
 }
 .work-list {
-  display: flex;  gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 .work-item {
   display: block;
