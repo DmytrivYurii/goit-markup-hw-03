@@ -127,7 +127,7 @@ ul {
   --primary-white-color: #f4f4fd;
   --secondary-accent-color: #404bbf;
 }
-.hc{
+.hc {
   display: flex;
 }
 .container {
@@ -239,7 +239,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.wc{
+.workc {
   display: block;
 }
 /*----------------------Section Team-----------------*/
@@ -288,7 +288,7 @@ ul {
   text-align: center;
   margin-bottom: 8px;
 }
-.tc{
+.teamc {
   display: block;
 }
 /*---------------------Section Footer-----------------*/
