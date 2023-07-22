@@ -94,6 +94,8 @@ img{
 .navigation-title-contacts {
   display: flex;
   font-family: "Roboto";
+  font-weight: 400;
+  margin-left: 200px;
   font-style: normal;
 }
 .navigation-contacts-link:hover,
@@ -136,7 +138,6 @@ img{
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid red;
 }
 
 /*--------------------Section Hero-------------------------------*/
