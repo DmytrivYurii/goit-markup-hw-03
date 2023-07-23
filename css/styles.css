@@ -29,6 +29,12 @@ img {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 .navigation-title {
   margin-right: 78px;
