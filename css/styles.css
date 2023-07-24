@@ -37,11 +37,10 @@ img {
   flex-shrink: 0;
 }
 .navigation-title {
-  margin-right: 78px;
   display: flex;
-  gap: 40px;
   align-items: center;
 }
+
 .navigation-item {
 }
 .navigation-logo {
@@ -101,7 +100,7 @@ img {
   display: flex;
   font-family: "Roboto";
   font-weight: 400;
-  margin-left: 200px;
+  margin-left: 320px;
   font-style: normal;
 }
 .navigation-contacts-link:hover,
@@ -257,7 +256,7 @@ img {
   background-color: #f4f4fd;
 }
 .team-subtitle {
-  display: flex;
+  display: block;
   gap: 24px;
   margin-bottom: 72px;
   color: #2e2f42;
@@ -274,7 +273,6 @@ img {
 .team-name {
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -321,7 +319,11 @@ img {
 }
 
 .footer-title {
+  font-family: "Roboto", sans-serif;
+  width: 264px;
+  max-width: 264px;
   color: #f4f4fd;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -414,5 +416,4 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
